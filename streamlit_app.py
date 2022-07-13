@@ -44,8 +44,7 @@ fruityvice_response=requests.get("https://fruityvice.com/api/fruit/" + fruit_cho
 #import connector
 #import snowflake.connector
 snowflake-connector-python
-cffi==1.15.0
-pyarrow==6.0.1
+
 
 import snowflake.connector
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
