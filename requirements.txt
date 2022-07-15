@@ -1,5 +1,5 @@
 #requirements.txt 
 snowflake-connector-python
-chardet>=3.0.2,<5
 cffi==1.15.0 
 pyarrow==6.0.1
+
