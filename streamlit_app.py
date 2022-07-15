@@ -49,7 +49,7 @@ streamlit.dataframe(fruityvice_normalized)
 
 #import connector
 import snowflake.connector
-#snowflake-connector-python
+snowflake-connector-python
 #cffi==1.15.0 pyarrow==6.0.1
 
 #import snowflake.connector
